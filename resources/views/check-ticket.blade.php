@@ -35,7 +35,7 @@
                     </div>
                     <form action="/check-ticket/{{ $item->id }}" method="POST">
                         @csrf
-                        <button type="submit" class="text-white rounded-lg w-full sm:w-auto px-5 py-2 text-center bg-blue-700 hover:bg-blue-800 focus:ring-blue-800">Checked</button>
+                        <button @if($item->status == 2) disabled class="text-white rounded-lg w-full sm:w-auto px-5 py-2 text-center bg-gray-600" @else class="text-white rounded-lg w-full sm:w-auto px-5 py-2 text-center bg-blue-700 hover:bg-blue-800 focus:ring-blue-800" @endif type="submit">Checked</button>
                     </form>
                 @endforeach
                 </div>
