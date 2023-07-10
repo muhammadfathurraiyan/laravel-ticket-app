@@ -41,11 +41,11 @@
                             {{ $data->email }}
                         </td>
                         <td class="space-betwen item-center px-6 font-medium text-white py-4">
-                            <a href="/entri-data/{{ $data->id }}/detail" class="font-medium text-white hover:text-green-500 hover:underline">Edit</a> | 
+                            <a href="/entri-data/{{ $data->id }}/detail" class="font-medium duration-300 text-white hover:text-green-500 hover:underline">Edit</a> | 
                             <form class="inline-block" action="/entri-data/{{ $data->id }}/delete" method="post">
                                 @csrf
                                 @method('delete')
-                                <button class="font-medium text-white hover:text-red-500 hover:underline"" onclick="return confirm('Apakah anda yakin ingin menghapus tiket ini?')">Delete</button>
+                                <button class="font-medium text-white duration-300 hover:text-red-500 hover:underline"" onclick="return confirm('Apakah anda yakin ingin menghapus tiket ini?')">Delete</button>
                             </form>
                         </td>
                     </tr> 
