@@ -21,7 +21,7 @@
                             Email
                         </th>
                         <th scope="col" class="px-6 py-3 font-medium whitespace-nowrap text-white">
-                            Status
+                            Aksi
                         </th>
                     </tr>
                 </thead>
