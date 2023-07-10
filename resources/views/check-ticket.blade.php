@@ -2,7 +2,6 @@
 @section('content')
 <div class="rounded-lg shadow m-4 w-[76.2%] h-[100%] float-right bg-gray-800">
     <div class="w-full p-4">
-        <small class="font-bold float-right mx-5 text-cyan-600">Hai Admin</small>
         <h1 class="text-3xl mt-11 font-bold text-white">Data Ticket</h1>
         <p class="mt-2 text-white">Form Checkin</p>
         <div class="mb-4">

@@ -48,7 +48,7 @@ class FormController extends Controller
         });
 
         // Simpan gambar ke file sementara
-        $imagePath = 'img/temp_image.jpg';
+        $imagePath = 'img/ticket.jpg';
         $image->save(public_path($imagePath));
 
         $data->save();

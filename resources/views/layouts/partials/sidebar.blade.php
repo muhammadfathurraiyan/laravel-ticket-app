@@ -27,7 +27,7 @@
          <li>
             <a href="{{ route('chekin') }}" id="dropbtn2" class="flex items-center p-2 rounded-lg transition duration-0  hover:duration-300 text-gray-400 hover:text-white">
                <span class="material-icons-outlined">fact_check</span>                  
-               <span class="flex-1 ml-3 text-left whitespace-nowrap">Check User checkin</span>
+               <span class="flex-1 ml-3 text-left whitespace-nowrap">Check Status User</span>
             </a>
          </li>
          <li>
