@@ -10,10 +10,12 @@ class AdminController extends Controller
     public function beranda() {
         return view('beranda');
     }
+
     public function entri() {
         $data = Data::latest()->get();
         return view('entri-data')->with(compact('data'));
     }
+
     public function showCheckForm()
     {
         return view('check-ticket');
@@ -64,11 +66,4 @@ class AdminController extends Controller
         $data = Data::latest()->get();
         return view('validasi')->with(compact('data'));
     }
-
-    // public function getData(Request $request) {
-    //     $data = Data::select('noId', 'name', 'email')
-    //         ->where('noId', $request->noId)
-    //         ->first();
-    //     return response()->json($data);
-    // }
 }
