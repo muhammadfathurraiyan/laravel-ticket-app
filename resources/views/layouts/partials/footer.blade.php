@@ -1,6 +1,6 @@
 <footer class="border-gray-700 border-t-[1px] bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800">
     <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-        &copy; 2023 <a href="#" class="duration-300 hover:underline" target="_blank">TicketApp.com</a>. All rights reserved.
+        &copy; 2023 <a href="https://muhammadfathurraiyan.site/" class="duration-300 hover:underline" target="_blank">Raiyan</a>. All rights reserved.
     </p>
     <div class="flex justify-center items-center space-x-1">
         <a href="{{ route('login') }}" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 duration-300 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
