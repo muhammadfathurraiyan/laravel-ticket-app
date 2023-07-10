@@ -45,7 +45,7 @@
                             <form class="inline-block" action="/entri-data/{{ $data->id }}/delete" method="post">
                                 @csrf
                                 @method('delete')
-                                <button class="font-medium text-white hover:text-red-500 hover:underline"" onclick="return confirm('Apakah anda yakin ingin menghapus berita ini?')">Delete</button>
+                                <button class="font-medium text-white hover:text-red-500 hover:underline"" onclick="return confirm('Apakah anda yakin ingin menghapus tiket ini?')">Delete</button>
                             </form>
                         </td>
                     </tr> 
